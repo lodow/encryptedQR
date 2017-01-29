@@ -1,0 +1,17 @@
+{
+  "name": "encryptedQR",
+  "version": "0.0.0",
+  "description": "QR code encrypted with private key",
+  "main": "app.js",
+  "scripts": {
+    "write": "node src/app-write.js",
+    "read": "node src/app-read.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maxime Lavandier",
+  "license": "ISC",
+  "dependencies": {
+    "qr-image": "^3.2.0",
+    "node-rsa": "^0.4.2"
+  }
+}

@@ -1,0 +1,49 @@
+bower_components
+node_modules
+*~
+npm-debug.log
+
+#KDevelop
+.kdev4/
+*.kdev4
+*.kdevelop
+*.kdevelop.filelist
+*.kdevelop.pcs
+*.kdevses
+.*kate-swp
+build/
+
+.idea/
+
+#####
+# OS X temporary files that should never be committed
+#
+# c.f. http://www.westwind.com/reference/os-x/invisibles.html
+
+.DS_Store
+api/doc
+mysql/data
+
+# c.f. http://www.westwind.com/reference/os-x/invisibles.html
+
+.Trashes
+
+# c.f. http://www.westwind.com/reference/os-x/invisibles.html
+
+*.swp
+
+#
+# *.lock - this is used and abused by many editors for many different things.
+#    For the main ones I use (e.g. Eclipse), it should be excluded
+#    from source-control, but YMMV.
+#   (lock files are usually local-only file-synchronization on the local FS that should NOT go in git)
+# c.f. the "OPTIONAL" section at bottom though, for tool-specific variations!
+
+*.lock
+
+*#
+*.orig
+*.rej
+
+Thumbs.db
+.fuse_hidden*
